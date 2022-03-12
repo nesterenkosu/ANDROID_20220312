@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MyServiceClient</string>
+    <string name="s_menuitem_users">Пользователи</string>
+    <string name="s_menuitem_languages">Языки программирования</string>
+    <string name="s_menuitem_sync">Синхронизация с сервером</string>
+    <string name="s_menuitem_settings">Настройки</string>
+
+    <string name="s_enter_name">Имя</string>
+    <string name="s_age">Возраст</string>
+    <string name="s_email">Email</string>
+    <string name="s_enter_data">Сохранить</string>
+    <string name="s_update">Обновить</string>
+    <string name="s_delete">Удалить</string>
+    <string name="s_btn_create">Создать</string>
+    <string name="s_lang_name">Название</string>
+</resources>
+

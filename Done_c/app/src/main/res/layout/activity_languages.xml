@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".ActivityLanguages">
+
+    <!--Текстовое поле для вывода результатов запроса к базе данных-->
+    <TextView
+        android:id="@+id/tv_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!--Элемент управления RecyclerView для реализации табличной части-->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_languages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!--Плавающая кнопка "Добавить" с пиктограммой +-->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="20px"
+        app:srcCompat="@android:drawable/ic_input_add" />
+</LinearLayout>
